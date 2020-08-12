@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://serene-falls-01416.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://serene-falls-01416.herokuapp.com/v1/task/';
   const trelloApiRoot = 'https://serene-falls-01416.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
