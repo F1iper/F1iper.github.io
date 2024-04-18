@@ -113,6 +113,14 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
+		.tab-container {
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin-top: 20px;
+			margin-right: 20px;
+		}
 /* Type */
 
 	html {
@@ -3227,7 +3235,7 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		#wrapper > .bg {
+		/* #wrapper > .bg {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -3246,7 +3254,7 @@ input, select, textarea {
 				position: fixed;
 				width: 100vw;
 				height: 100vh;
-			}
+			} */
 
 		#wrapper.fade-in:before {
 			pointer-events: none;
