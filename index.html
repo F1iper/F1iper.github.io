@@ -12,6 +12,9 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
+			.tab-link.active {
+				background-color: #8a8989;
+			}
 			#programming {
 				display: flex;
 				flex-wrap: wrap;
@@ -54,55 +57,48 @@
 								</ul>
 							</nav>
 
-							<div id="main">
-								<!-- Programming Tab Content -->
-								<div id="programming" class="tab-content active">
-									<!-- Featured Post -->
-									<article class="post featured">
-										<header class="major">
-											<!-- <span class="date">April 25, 2017</span> -->
-											<h2><a href="#">Hi, my name is filip<br/></a></h2>
-											<p>The current project I'm working on is an application for managing movie rentals, </p>
-											<p>for its development I use technologies such as - Java 17, Spring Security, Hibernate, MySQL, lombok.</p>
-											<p>Application will be dockerized.</p>
-											
-											
-										</header>
-										<a href="#" class="align center; image fit;"><img src="images/pic22.jpg" alt="" style="width:700px; height:500px;border:solid5px #000000"; " /></a>
-										<ul class="actions special">
-											<!-- <li><a href="work_in_progress" class="button large">Check it out</a></li> -->
-											<li><a href="https://github.com/F1iper/movie-rental-spring" class="button large">Read the code</a></li>
-										</ul>
-									</article>
-		
+							<div id="programming" class="tab-content active">
+								<!-- Featured Post (First project) -->
+								<article class="post featured">
+									<header class="major">
+										<h2><a href="#">Hi, my name is filip<br/></a></h2>
+										<p>The current project I'm working on is an application for managing movie rentals, </p>
+										<p>for its development I use technologies such as - Java 17, Spring Security, Hibernate, MySQL, lombok.</p>
+										<p>Application will be dockerized.</p>
+									</header>
+									<a href="#" class="align center; image fit;"><img src="images/pic22.jpg" alt="" style="width:700px; height:500px;border:solid5px #000000"; " /></a>
+									<ul class="actions special">
+										<li><a href="https://github.com/F1iper/movie-rental-spring" class="button large">Read the code</a></li>
+									</ul>
+								</article>
+							
+								<!-- Second and Third articles (Projects 2 and 3) -->
+								<div class="post-group">
 									<!-- Second article -->
 									<article>
 										<header>
-											<h2><a href="#">Share Food app<br />
-												Group project</a></h2>
+											<h2><a href="#">Share Food app<br />Group project</a></h2>
 										</header>
 										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 										<p>An application that helps prevent food from being thrown away by sharing it in adapted refrigerators.</p>
 										<ul class="actions special">
-											<!-- <li><a href="Sorry_there_is_only_code_available." class="button">Check it out</a></li> -->
 											<li><a href="https://github.com/F1iper/share-food" class="button">Read the code</a></li>
 										</ul>
 									</article>
-		
+							
 									<!-- Third article -->
 									<article>
 										<header>
-											<h2><a href="#">Online service reservation<br />
-												Solo project</a></h2>
+											<h2><a href="#">Online service reservation<br />Solo project</a></h2>
 										</header>
 										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										<p>An application that allows you to make appointments to the hairdresser, massage parlor or barber online.</p>
+										<p>An application that allows you to make appointments to the hairdresser, massage parlor, or barber online.</p>
 										<ul class="actions special">
-											<!-- <li><a href="Work_in_progress" class="button">Check it out</a></li> -->
 											<li><a href="https://github.com/F1iper/kamann" class="button">Read the code</a></li>
 										</ul>
 									</article>
 								</div>
+							</div>
 
 						<!-- Blog Tab Content (hidden by default) -->
 						<div id="blog" class="tab-content">
