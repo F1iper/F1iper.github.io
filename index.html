@@ -79,9 +79,8 @@
             <nav class="collapse navbar-collapse navbar-right" role="navigation">
                 <ul id="nav" class="nav navbar-nav">
                     <li class="current"><a href="#body">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#team">Team</a></li>
+                    <li><a href="#features">About</a></li>
+                    <li><a href="#projects">Interests</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -158,9 +157,10 @@
             <div class="row">
 
                 <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+                    <h2>About me</h2?>
+                    <br>
                     <div class="devider"><i class="fa-solid fa-laptop-code"></i></div>
                     <br>
-                    <h2>About me</h2?>
                 </div>
 
                 <!-- service item -->
@@ -222,9 +222,9 @@
             <div class="row">
 
                 <div class="sec-title text-center">
-                    <div class="devider"><i class="fa fa-fire fa-lg"></i></div>
-                    <br>
                     <h2>My interests</h2>
+                    <br>
+                    <div class="devider"><i class="fa fa-fire fa-lg"></i></div>
                     <br>
                 </div>
 
@@ -287,16 +287,17 @@
                 <div class="row number-counters">
 
                     <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-                        <div class="devider"><i class="fa-solid fa-play fa-2x"></i></div>
-                        <br>
                         <h2>Some Fun Facts</h2>
+                        <br>
+                        <div class="devider"><i class="fa fa-play"></i></div>
+                        <br>
                     </div>
 
                     <!-- first count item -->
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
                         data-wow-duration="500ms">
                         <div class="counters-item">
-                            <i class="fa-solid fa-clock"></i>
+                            <i class="fa fa-clock"></i>
                             <strong data-to="3040">0</strong>
                             <!-- Set Your Number here. i,e. data-to="56" -->
                             <p>Hours with commercial code</p>
@@ -305,7 +306,7 @@
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
                         data-wow-delay="300ms">
                         <div class="counters-item">
-                            <i class="fa-solid fa-code-commit"></i>
+                            <i class="fa fa-code-commit"></i>
                             <strong data-to="940">0</strong>
                             <!-- Set Your Number here. i,e. data-to="56" -->
                             <p>Commits</p>
@@ -314,7 +315,7 @@
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
                         data-wow-delay="600ms">
                         <div class="counters-item">
-                            <i class="fa-solid fa-rocket"></i>
+                            <i class="fa fa-rocket"></i>
                             <strong data-to="9000">0</strong>
                             <!-- Set Your Number here. i,e. data-to="56" -->
                             <p>Projects started</p>
@@ -323,7 +324,7 @@
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
                     data-wow-delay="600ms">
                     <div class="counters-item">
-                        <i class="fa-solid fa-helicopter"></i>
+                        <i class="fa fa-helicopter"></i>
                         <strong data-to="200">0</strong>
                         <!-- Set Your Number here. i,e. data-to="56" -->
                         <p>Hours in air</p>
@@ -343,26 +344,29 @@
             <div class="row">
 
                 <div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+                    <h2>Contact</h2>
+                    <br>
                     <div class="devider"><i class="fa fa-envelope fa-2x"></i></div>
                     <br>
-                    <h2>Contact</h2>
                 </div>
 
                 <!-- single member -->
                 <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
                     data-wow-duration="500ms">
-                    <div class="member-thumb">
-                        <img src="img/team/1.jpeg" alt="Team Member" class="img-responsive">
-                        <figcaption class="overlay">
-                            <h5>Feel free to contact me</h5>
-                            <ul class="social-links text-center">
-                                <li><a href="mailto: ftimofiejew@gmail.com" class="fa fa-envelope"></a></li>
-                                <li><a href="https://www.linkedin.com/in/filip-timofiejew/" class="fa fa-linkedin fa-lg fa-2x"></a></li>
-                            </ul>
-                        </figcaption>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="member-thumb">
+                            <img src="img/team/1.jpeg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Feel free to contact me</h5>
+                                <ul class="social-links text-center">
+                                    <li><a href="mailto: ftimofiejew@gmail.com" class="fa fa-envelope"></a></li>
+                                    <li><a href="https://www.linkedin.com/in/filip-timofiejew/" class="fa fa-linkedin fa-lg fa-2x"></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Filip Timofiejew</h4>
+                        <span>Junior Java Developer</span>
                     </div>
-                    <h4>Filip Timofiejew</h4>
-                    <span>Junior Java Developer</span>
                 </figure>
                 <!-- end single member -->
             </div>
@@ -415,63 +419,6 @@
     </script>
     <!-- Custom Functions -->
     <script src="js/custom.js"></script>
-
-    <script type="text/javascript">
-        $(function () {
-            /* ========================================================================= */
-            /*	Contact Form
-            /* ========================================================================= */
-
-            $('#contact-form').validate({
-                rules: {
-                    name: {
-                        required: true,
-                        minlength: 2
-                    },
-                    email: {
-                        required: true,
-                        email: true
-                    },
-                    message: {
-                        required: true
-                    }
-                },
-                messages: {
-                    name: {
-                        required: "come on, you have a name don't you?",
-                        minlength: "your name must consist of at least 2 characters"
-                    },
-                    email: {
-                        required: "no email, no message"
-                    },
-                    message: {
-                        required: "um...yea, you have to write something to send this form.",
-                        minlength: "thats all? really?"
-                    }
-                },
-                submitHandler: function (form) {
-                    $(form).ajaxSubmit({
-                        type: "POST",
-                        data: $(form).serialize(),
-                        url: "process.php",
-                        success: function () {
-                            $('#contact-form :input').attr('disabled', 'disabled');
-                            $('#contact-form').fadeTo("slow", 0.15, function () {
-                                $(this).find(':input').attr('disabled', 'disabled');
-                                $(this).find('label').css('cursor', 'default');
-                                $('#success').fadeIn();
-                            });
-                        },
-                        error: function () {
-                            $('#contact-form').fadeTo("slow", 0.15, function () {
-                                $('#error').fadeIn();
-                            });
-                        }
-                    });
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>
