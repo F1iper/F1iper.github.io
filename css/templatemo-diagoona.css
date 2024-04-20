@@ -338,3 +338,38 @@ textarea {
     .tm-service-img { margin-right: 0; }
     .tm-service-img-r { margin-left: 0; }
 }
+
+
+.highlight-link {
+    font-family: 'YourFancyFont', sans-serif;
+    font-weight: bold;
+    color: #ff9e5dc9;
+}
+
+.tech-stack {
+    padding-left: 20px;
+}
+
+.tech-stack ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tech-stack li {
+    margin: 2px 0;
+}
+
+.contact-list li {
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.contact-list a i {
+    display: flex;
+    justify-content: center;
+    color: #ff9e5dc9;
+}
+
+.contact-list a i:hover {
+    color: #0056b3;
+}
