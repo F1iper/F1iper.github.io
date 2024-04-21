@@ -361,7 +361,8 @@ textarea {
 
 .contact-list li {
     display: inline-block;
-    margin: 0 35px;
+    justify-content: center;
+    margin: 0 30px;
 }
 
 .contact-list a i {
