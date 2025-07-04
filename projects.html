@@ -67,31 +67,41 @@ https://templatemo.com/tm-550-diagoona
                         <a href="https://github.com/Dance-reservation-system/Kamann" class="highlight-link">Booking System</a>
                     </h2>
                         <p>
-                            The Booking System is built to simplify and enhance the way any dance (or other) studio operates. 
-                            It provides a smooth platform for administrators to manage classes and users, instructors to handle schedules and attendance, 
-                            and clients to easily book classes and track memberships. </p>
+                            The Booking System is designed to simplify and enhance daily operations in dance, yoga, or similar studios.  
+                            Built using <strong>Domain-Driven Design</strong> and <strong>Clean Architecture</strong> principles, the system enforces clear boundaries between domain, application, and infrastructure layers.  
+                            It provides a modular backend that is easy to extend, test, maintain and consume. The platform enables owners to manage classes and users, instructors to coordinate schedules and attendance,  
+                            and clients to conveniently book classes and track their memberships.
+                        </p>
 
-                            <p>As the Product Owner of this open-source project, I coordinate closely with both UI/UX and frontend development teams to ensure our vision aligns.</p>
+                        <p>
+                            As the <strong>Tech Lead</strong>, <strong>Product Owner</strong>, <strong>Domain Expert</strong>, <strong>Project Manager</strong>, and <strong>Backend Developer</strong> of this open-source project,  
+                            I coordinate a fully remote team of over 30 contributors — including backend and frontend developers, testers, and UI/UX designers.  
+                            I'm responsible for the system's architecture, domain modeling, backlog prioritization, and ensuring business-technical alignment throughout the development lifecycle.
+                        </p>
 
-                            <p>I have expanded accessibility by deploying API to the cloud via Railway.com.</p>
+                        <p>
+                            Our team has successfully implemented <strong>Keycloak</strong> (containerized) to provide secure, role-based authentication and authorization using JWT tokens.  
+                            The first version of the backend API was deployed to <a href="https://railway.app" target="_blank">Railway.com</a>, and although the project is currently hosted locally,  
+                            we plan to bring back cloud deployment via Railway in the upcoming <strong>v2.0 release</strong>.
                         </p>
                     <h4>Features</h4>
-                        <ul class="tech-stack">
-                            <li>Admin: Manage classes, users, and generate detailed reports.</li>
-                            <li>Instructor: Plan schedules, track attendance, and confirm payments.</li>
-                            <li>Client: Book or cancel classes, track membership card usage, and receive reminders.</li>
-                            <li>Asynchronous Operations: Handles processes efficiently with future plans to integrate RabbitMQ for messaging.</li>
+                      <ul class="tech-stack">
+                            <li><strong>Owner</strong>: Manage classes, users, instructors, halls, and access detailed reports and analytics.</li>
+                            <li><strong>Instructor</strong>: Create and manage schedules, track attendance, confirm payments, and manage class capacity.</li>
+                            <li><strong>Client</strong>: Book or cancel classes, track membership card usage (e.g. remaining entries, validity), and receive email reminders.</li>
+                            <li><strong>Asynchronous Operations</strong>: Architecture designed to support messaging; RabbitMQ integration is planned.</li>
                         </ul>
                     <h4>Tech Stack</h4>
-                        <ul class="tech-stack">
+                      <ul class="tech-stack">
                             <li>Java 21</li>
                             <li>Spring Boot 3</li>
-                            <li>PostgreSQL</li>
-                            <li>Spring Security with JWT Authentication</li>
-                            <li>Swagger-UI</li>
+                            <li>PostgreSQL 16 + Flyway</li>
+                            <li>Spring Security with Keycloak (JWT-based authentication)</li>
+                            <li>Domain-Driven Design, Clean Architecture</li>
                             <li>JUnit 5 and Mockito</li>
+                            <li>Swagger-UI</li>
                             <li>Lombok</li>
-        
+                            <li>GitHub Actions (CI/CD), SonarQube (code quality gates)</li>
                         </ul>
                 </section>
                 </main>
